@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Audios Amigo</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="app.css" type="text/css" />
+</head>
+<body>
+    <div id="main" class="container-fluid">
+        <header>
+            <h1>Audios Amigo</h1>
+            <p class="lead">Testing the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> and <a href="https://github.com/mattdiamond/Recorderjs">Recorder.js</a>.</p>
+        </header>
+        <section id="section-recorder">
+            <h3>Recorder</h3>
+            <button id="record-start" class="btn btn-danger"><i class="glyphicon glyphicon-record"></i>&nbsp;Record</button>
+            <button id="record-stop" class="btn btn-default"><i class="glyphicon glyphicon-stop"></i>&nbsp;Stop</button>
+        </section>
+        <section id="section-recordings">
+            <h3>Recordings</h3>
+            <ul id="recordings"></ul>
+        </section>
+        <footer>
+            <p>Written by <a href="https://github.com/FreddieBoi">FreddieBoi</a>.</p>
+        </footer>
+    </div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/recorderjs/recorder.js"></script>
+    <script src="bower_components/recorderjs/recorderWorker.js"></script>
+    <script src="audiosamigo.js"></script>
+</body>
+</html>

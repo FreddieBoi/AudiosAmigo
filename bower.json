@@ -1,0 +1,28 @@
+{
+  "name": "AudiosAmigo",
+  "version": "0.0.1",
+  "authors": [
+    "Freddie <freddieboi@gmail.com>"
+  ],
+  "description": "Testing the Web Audio API",
+  "main": "audiosamigo.js",
+  "moduleType": [],
+  "keywords": [
+    "waa",
+    "example"
+  ],
+  "license": "Beerware",
+  "homepage": "https://github.com/FreddieBoi/AudiosAmigo",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~2.2.0",
+    "recorderjs": "~0.0.0"
+  }
+}

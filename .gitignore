@@ -1,0 +1,18 @@
+# Visual Studio
+*suo
+*Resharper*
+*.vs*
+*.user
+
+# Build Folders
+bin
+obj
+
+# Packages
+node_modules
+bower_components
+typings
+
+# JavaScript
+*.js
+*.map

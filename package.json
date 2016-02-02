@@ -1,0 +1,31 @@
+{
+  "name": "audiosamigo",
+  "version": "0.0.1",
+  "description": "Testing the Web Audio API",
+  "main": "audiosamigo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "waa",
+    "example"
+  ],
+  "author": "Freddie <freddieboi@gmail.com>",
+  "contributors": [
+    {
+      "name": "Freddie",
+      "email": "freddieboi@gmail.com"
+    }
+  ],
+  "license": "Beerware",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FreddieBoi/AudiosAmigo"
+  },
+  "bugs": {
+    "url": "https://github.com/FreddieBoi/AudiosAmigo/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
