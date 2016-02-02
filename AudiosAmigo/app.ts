@@ -11,6 +11,11 @@ $(document).ready(() => {
         spanElement.innerHTML = recording.getFileName();
         listItemElement.appendChild(spanElement);
 
+        var audioElement = document.createElement("audio");
+        audioElement.controls = true;
+        audioElement.src = recording.url;
+        listItemElement.appendChild(audioElement);
+
         var anchorElement = document.createElement("button");
         anchorElement.className = "btn btn-default";
         var iconElement = document.createElement("i");
@@ -21,12 +26,6 @@ $(document).ready(() => {
             Recorder.forceDownload(recording.blob, recording.getFileName())
         });
         listItemElement.appendChild(anchorElement);
-
-        var audioElement = document.createElement("audio");
-        audioElement.className = "pull-right";
-        audioElement.controls = true;
-        audioElement.src = recording.url;
-        listItemElement.appendChild(audioElement);
 
         $(recordingsHtmlId).prepend($(listItemElement));
     });
