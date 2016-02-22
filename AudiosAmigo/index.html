@@ -11,7 +11,7 @@
     <div id="main" class="container-fluid">
         <header>
             <h1>Audios Amigo</h1>
-            <p class="lead">Testing the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> and <a href="https://github.com/mattdiamond/Recorderjs">Recorder.js</a>.</p>
+            <p class="lead">Testing the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API">Web Audio API</a> (using <a href="https://github.com/mattdiamond/Recorderjs">Recorder.js</a>) and the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API">Web Speech API</a>.</p>
         </header>
         <section id="section-recorder">
             <h3>Recorder</h3>
@@ -21,6 +21,16 @@
         <section id="section-recordings">
             <h3>Recordings</h3>
             <ul id="recordings"></ul>
+        </section>
+        <section id="section-speech-recognition">
+            <h3>Speech Recognition</h3>
+            <button id="speech-recognition-start" class="btn btn-danger"><i class="glyphicon glyphicon-record"></i>&nbsp;Speech-to-Text</button>
+            <button id="speech-recognition-stop" class="btn btn-default"><i class="glyphicon glyphicon-stop"></i>&nbsp;Stop</button>
+        </section>
+        <section id="section-transcript">
+            <h3>Transcript</h3>
+            <pre id="paragraph-transcript-interim"></pre>
+            <p id="paragraph-transcript-final"></p>
         </section>
         <footer>
             <p>Written by <a href="https://github.com/FreddieBoi">FreddieBoi</a>.</p>
